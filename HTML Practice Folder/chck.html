@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ln="en">
+<head>
+<title>Dropdown</title>
+</head>
+<body>
+  <select id="sample">
+	<option value="Blue"> Blue </option>
+	<option value="Yellow"> Yellow </option>
+	<option value="Pink"> Pink </option>
+	<option value="Green"> Green </option>
+	<option value="Brown"> Brown </option>
+  </select>
+  <button onclick="getValue();">Get Value</button>
+  <script type="text/javascript">
+	function getValue() {
+		var value = document.getElementById('sample').value;
+		alert(value);
+	}
+  </script>
+</body>
+</html>
